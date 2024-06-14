@@ -9,7 +9,7 @@ public class Main {
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setUrl("jdbc:mysql://localhost:3306/jdbc_cardealerships");
         dataSource.setUsername("root");
-        dataSource.setPassword("password");
+        dataSource.setPassword("Password345@");
 
         UserInterface ui = new UserInterface(dataSource);
 
